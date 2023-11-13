@@ -12,7 +12,7 @@ jobs:
 - job: Build
   displayName: 'Build Job'
   pool:
-    name: RAYYANMINHAJ
+    name: Default
   steps:
   - script: echo 'Building the code'
     displayName: 'Build Step'
